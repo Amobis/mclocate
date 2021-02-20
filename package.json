@@ -3,8 +3,9 @@
     "discord.js": "^12.5.1",
     "fs": "^0.0.1-security",
     "git": "^0.1.5",
+    "node.js": "^0.0.1-security"
   },
-  "scripts":{
+  "scripts": {
     "start": "node index.js"
   }
 }
