@@ -252,5 +252,5 @@ function Savebdd() {
         if (err) message.channel.send("Une erreure est survenue");
     })
 }
-bot.login(token.token);
+bot.login(process.env.TOKEN);
 bot2.login(token.token2)
