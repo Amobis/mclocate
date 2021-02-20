@@ -253,4 +253,4 @@ function Savebdd() {
     })
 }
 bot.login(process.env.TOKEN);
-bot2.login(token.token2)
+//bot2.login(token.token2)
