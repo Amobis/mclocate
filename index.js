@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client;
-const token = require('./token');
+//const token = require('./token');
 const bdd = require("./bdd.json");
 const { measureMemory } = require('vm');
 const bot2 = new Discord.Client;
