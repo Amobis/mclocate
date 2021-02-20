@@ -3,6 +3,9 @@
     "discord.js": "^12.5.1",
     "fs": "^0.0.1-security",
     "git": "^0.1.5",
-    "main": "index.jon"
+    
+  }
+  "setups" : {
+    "start" : "node index.js"
   }
 }
