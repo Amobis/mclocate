@@ -4,5 +4,8 @@
     "fs": "^0.0.1-security",
     "git": "^0.1.5",
     "node.js": "^0.0.1-security"
+  },
+  "scripts":{
+    "start": "node index.js"
   }
 }
