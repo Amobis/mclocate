@@ -6,6 +6,6 @@
     "node.js": "^0.0.1-security"
   },
   "scripts":{
-    "start": "node index.js"
+    "start": "nf start"
   }
 }
