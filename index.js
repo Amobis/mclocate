@@ -43,7 +43,7 @@ bot.on("message", message => {
                 if (bdd["guild"][message.guild.id] && args[1] != "defaut") {
                     bdd["guild"][message.guild.id] = { "prefix": args[1] }
                     Savebdd()
-                    message.channel.send("préfix du bot défini à : " + bdd["guild"][message.guild.id]["prefix"])
+                    message.channel.send("préfix du bot défini --à : " + bdd["guild"][message.guild.id]["prefix"])
                 }
                 if (bdd["guild"][message.guild.id] && args[1] === "defaut") {
                     bdd["guild"][message.guild.id] = { "prefix": "-" }
@@ -181,7 +181,7 @@ bot.on("message", message => {
                 if (!args[1]) {
                     let cooListe = [bdd.users[utilisateurID]["name"]]
                     for (i = 0; i < bdd["users"][utilisateurID].length; i++) {
-                        cooListe.push(bdd.users[utilisateurID][i]["name"])
+                        cooListe.push(bdd["users"][utilisateurID][i]["name"])
                     }
                     let cooLocate = cooListe.splice(1).join("\n>").slice(',');
                     message.channel.send(`Les coordonées enregistées sont : **\n>${cooLocate}**\ntapez **${prefix}locate {nom}** pour les consulter.`)
